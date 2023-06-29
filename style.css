@@ -13,6 +13,11 @@ body{
     align-items: center;
     background: linear-gradient(45deg , #0a0a0a, #3a4452);
 }
+#heading h2{
+    padding: 5rem;
+    color: white;
+    font-size: 45px;
+}
 .calculator h1{
     color: white;
     font-size: 30px;

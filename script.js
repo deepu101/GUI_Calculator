@@ -14,10 +14,7 @@ arr.forEach(button =>{
         }else if(e.target.innerHTML == 'DEL'){
             string = string.substring(0, string.length-1);
             input.value =string;
-        }
-        
-        
-        else{
+        }else{
             string += e.target.innerHTML;
             input.value = string;
         }
